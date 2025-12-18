@@ -30,27 +30,55 @@
     padding: 4rem 0;
   }
 
-  /* Button Style */
-  .btn-magenta {
-    background-color: #b388fe;
-    color: black;
-    border-radius: 8px;
-    padding: 0.5rem 1.5rem;
-    /* Bootstrap-like padding */
-    font-size: 1rem;
-    border: none;
-    transition: background-color 0.3s ease;
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
   }
 
-  .btn-magenta:hover,
-  .btn-magenta:focus {
-    background-color: #c400c4;
-    /* darker magenta */
-    color: white;
-    outline: none;
-    box-shadow: 0 0 0 0.25rem rgba(196, 0, 196, 0.5);
-    /* subtle focus glow */
-  }
+    /* Featurettes
+  ------------------------- */
+  
+    .featurette-divider {
+      margin: 5rem 0;
+      /* Space out the Bootstrap <hr> more */
+    }
+  
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -.05rem;
+    }
+
+    /* Button Style */
+    .btn-magenta {
+      background-color: #b388fe;
+      color: black;
+      border-radius: 8px;
+      padding: 0.5rem 1.5rem;
+      /* Bootstrap-like padding */
+      font-size: 1rem;
+      border: none;
+      transition: background-color 0.3s ease;
+    }
+  
+    .btn-magenta:hover,
+    .btn-magenta:focus {
+      background-color: #c400c4;
+      /* darker magenta */
+      color: white;
+      outline: none;
+      box-shadow: 0 0 0 0.25rem rgba(196, 0, 196, 0.5);
+      /* subtle focus glow */
+    }
 
   /* Weekly Mission Section Styling */
   .events-section {
