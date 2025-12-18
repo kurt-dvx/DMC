@@ -3,172 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>The UWI Digital Media Club's Website</title>
+    <title>The UWI Digital Media's Club Website</title>
     <link rel="icon" href="/DMC.jpg" type="image/jpeg" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <style>
-      html,
-      body {
-        height: 100%;
-        margin: 0;
-        font-family: 'Poppins', sans-serif;
-      }
-
-      /* Full screen background image */
-      .fullscreen-bg {
-        background: url("https://wallpapers.com/images/hd/dark-theme-background-q62o6998n8bqxzrf.jpg")
-          no-repeat center center fixed;
-        background-size: cover;
-        height: 100vh;
-        position: relative;
-        color: white;
-      }
-
-      /* Position text at the 2nd horizontal third, near bottom of that third */
-      .welcome-text {
-        position: absolute;
-        /* 66.6% down the viewport minus a bit of offset to place near bottom of the 2nd third */
-        top: calc(66.6vh - 40px);
-        width: 100%;
-        text-align: center;
-        font-size: 2rem;
-        text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-        padding: 0 20px;
-      }
-      .about-section {
-        padding: 4rem 0;
-        text-align: center;
-      }
-
-      .carousel-section {
-        padding: 4rem 0;
-      }
-
-      /* Button Style */
-      .btn-magenta {
-        background-color: #b388fe;
-        color: black;
-        border-radius: 8px;
-        padding: 0.5rem 1.5rem; /* Bootstrap-like padding */
-        font-size: 1rem;
-        border: none;
-        transition: background-color 0.3s ease;
-      }
-
-      .btn-magenta:hover,
-      .btn-magenta:focus {
-        background-color: #c400c4; /* darker magenta */
-        color: white;
-        outline: none;
-        box-shadow: 0 0 0 0.25rem rgba(196, 0, 196, 0.5); /* subtle focus glow */
-      }
-
-      /* Weekly Mission Section Styling */
-      .events-section {
-        background: linear-gradient(to right, #1f1c2c, #6a2c80);
-        border-top: 1px solid #444;
-        border-bottom: 1px solid #444;
-      }
-
-      .day-block {
-        background-color: rgba(255, 255, 255, 0.07);
-        padding: 30px 20px;
-        margin: 10px;
-        margin-bottom: 80px;
-        border-radius: 12px;
-        min-height: 200px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      }
-
-      .day-header {
-        font-weight: bold;
-        padding: 5px 0;
-        margin-bottom: 10px;
-        border-radius: 5px;
-        color: white;
-      }
-
-      .mon {
-        background-color: #9b4dca;
-      }
-      .tue {
-        background-color: #4d61ca;
-      }
-      .wed {
-        background-color: #2ac3d2;
-      }
-      .thu {
-        background-color: #29c27f;
-      }
-      .fri {
-        background-color: #a4ce3c;
-      }
-      .sat {
-        background-color: #f4b53f;
-      }
-      .sun {
-        background-color: #ef4a3c;
-      }
-
-      .icon {
-        font-size: 1.5rem;
-        margin-bottom: 10px;
-      }
-
-      .mission {
-        font-weight: bold;
-        font-size: 1rem;
-      }
-
-      .frosted-glass {
-        background: rgba(255, 255, 255, 0.05);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
-        border-radius: 16px;
-        padding: 2rem;
-        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-        border: 1px solid rgba(255, 255, 255, 0.18);
-      }
-
-      .team-section {
-        background: linear-gradient(to left, #1f1c2c, #6a2c80);
-        padding: 4rem 0;
-        color: white;
-      }
-
-      .member-card {
-        background-color: rgba(255, 255, 255, 0.07);
-        border-radius: 12px;
-        padding: 20px;
-        text-align: center;
-        color: white;
-        transition: transform 0.3s;
-      }
-
-      .member-card:hover {
-        transform: translateY(-5px);
-      }
-
-      .member-photo {
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-        object-fit: cover;
-        margin-bottom: 1rem;
-      }
-
-      footer a:hover {
-        text-decoration: underline;
-        color: #b388fe;
-      }
-
-    </style>
+    <link rel="stylesheet" href="/index.css" />
   </head>
   <body>
     <div class="fullscreen-bg">
@@ -207,49 +49,49 @@
             <!-- Monday -->
             <div class="col-6 col-md-3 col-lg-2 day-block me-3">
               <div class="day-header mon">Oct 16</div>
-              <div class="icon">📽️</div>
+              <div class="icon">📚</div>
               <div class="mission">Roll the Reel</div>
               <small>Introduction to Film and Videography</small>
             </div>
             <!-- Tuesday -->
             <div class="col-6 col-md-3 col-lg-2 day-block me-3">
               <div class="day-header tue">Oct 23</div>
-              <div class="icon">🎬</div>
+              <div class="icon">🎞️</div>
               <div class="mission">Flashy Edits</div>
               <small>Post Production in videos</small>
             </div>
 
             <div class="col-6 col-md-3 col-lg-2 day-block me-3">
               <div class="day-header wed">Oct 30</div>
-              <div class="icon">👻🎬</div>
-              <div class="mission">Haloween Shorts</div>
-              <small>Halloween Content Creation day</small>
+              <div class="icon">📽️</div>
+              <div class="mission">Haloween Content Creation Day</div>
+              <small>Lets create some content</small>
             </div>
 
             <div class="col-6 col-md-3 col-lg-2 day-block me-3">
-              <div class="day-header thu">Nov 6</div>
+              <div class="day-header thu">Jan 22</div>
               <div class="icon">✨</div>
               <div class="mission">Visual Vibes</div>
               <small>Intro to Graphic Design</small>
             </div>
 
             <div class="col-6 col-md-3 col-lg-2 day-block me-3">
-              <div class="day-header fri">Nov 13</div>
-              <div class="icon">💡</div>
+              <div class="day-header fri">Jan 29</div>
+              <div class="icon">✨</div>
               <div class="mission">Visual Vibes 2</div>
               <small>Advanced Graphic Design</small>
             </div>
 
             <div class="col-6 col-md-3 col-lg-2 day-block me-3">
-              <div class="day-header sat">Nov 20</div>
-              <div class="icon">🌠</div>
-              <div class="mission">Design Capstone</div>
-              <small>Graphic Design Project</small>
+              <div class="day-header sat">Feb 05</div>
+              <div class="icon">🎨</div>
+              <div class="mission">2D Arts</div>
+              <small>Digital Art & illustration</small>
             </div>
 
             <div class="col-6 col-md-3 col-lg-2 day-block me-3">
-              <div class="day-header sun">Nov 27</div>
-              <div class="icon">🔊</div>
+              <div class="day-header sun">Feb 12</div>
+              <div class="icon">🔉</div>
               <div class="mission">Audio Intro</div>
               <small>Intro to audio production</small>
             </div>
@@ -291,42 +133,42 @@
           <h3>Gallery</h3>
           <div class="carousel-item active ">
             <img
-              src="https://wallpapers.com/images/hd/dark-theme-background-q62o6998n8bqxzrf.jpg"
+              src="https://myuwi-my.sharepoint.com/personal/kurt_ranny_my_uwi_edu/Documents/DMC%20Website/IMG_3728.JPG"
               class="d-block w-100"
               alt="First Slide"
             />
             <div class="carousel-caption d-none d-md-block">
-              <h5>First Slide Label</h5>
+              <h5>Intro to Photography</h5>
               <p>
-                Some representative placeholder content for the first slide.
+                Group photo of the members who attended the intro to photography workshop
               </p>
             </div>
           </div>
 
           <div class="carousel-item">
             <img
-              src="https://cdn.mos.cms.futurecdn.net/EsTPe6Ud5tDM8YC7gpSJVn.jpg"
+              src="https://myuwi-my.sharepoint.com/personal/kurt_ranny_my_uwi_edu/Documents/DMC%20Website/7c836fba-871f-4015-bee8-bd8da1e5cbed.JPG"
               class="d-block w-100"
               alt="Second Slide"
             />
             <div class="carousel-caption d-none d-md-block">
-              <h5>Second Slide Label</h5>
+              <h5>DMC Creatives</h5>
               <p>
-                Some representative placeholder content for the second slide.
+                Members of the DMC Executive and Creatives team at the UAS X Coffee and Cars Event.
               </p>
             </div>
           </div>
 
           <div class="carousel-item">
             <img
-              src="https://wallpapers.com/images/hd/dark-theme-background-q62o6998n8bqxzrf.jpg"
+              src="https://myuwi-my.sharepoint.com/personal/kurt_ranny_my_uwi_edu/Documents/DMC%20Website/20251030_164450.jpg"
               class="d-block w-100"
               alt="Third Slide"
             />
             <div class="carousel-caption d-none d-md-block">
-              <h5>Third Slide Label</h5>
+              <h5>DMC Halloween Skit</h5>
               <p>
-                Some representative placeholder content for the third slide.
+                Zombie actors ready for action 🎬
               </p>
             </div>
           </div>
@@ -386,7 +228,7 @@
           </div>
           <div class="col-6 col-sm-4 col-md-3 col-lg-2 member-card me-3 mb-4">
             <img src="https://cdn4.iconfinder.com/data/icons/professional-avatar-5/48/seo_manager_avatar_women_woman_profile_character_professions_2-512.png" class="member-photo" alt="Member Photo" />
-            <h6>Isabelle John</h6>
+            <h6>Issabelle John</h6>
             <p>Marketing and Communications Officer</p>
           </div>
           <div class="col-6 col-sm-4 col-md-3 col-lg-2 member-card me-3 mb-4">
@@ -398,11 +240,6 @@
             <img src="https://cdn0.iconfinder.com/data/icons/professional-avatar-5/48/business_male_avatar_men_character_professions-512.png" class="member-photo" alt="Member Photo" />
             <h6>Nathan Nancoo</h6>
             <p>Head of Photography</p>
-          </div>
-          <div class="col-6 col-sm-4 col-md-3 col-lg-2 member-card me-3 mb-4">
-            <img src="https://cdn4.iconfinder.com/data/icons/professional-avatar-5/48/seo_manager_avatar_women_woman_profile_character_professions_2-512.png" class="member-photo" alt="Member Photo" />
-            <h6>Oceya Sobers</h6>
-            <p>Head of Graphic Design</p>
           </div>
           <div class="col-6 col-sm-4 col-md-3 col-lg-2 member-card me-3 mb-4">
             <img src="https://cdn0.iconfinder.com/data/icons/professional-avatar-5/48/business_male_avatar_men_character_professions-512.png" class="member-photo" alt="Member Photo" />
@@ -460,7 +297,7 @@
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
               <div class="accordion-body">
-                Meetings are held in Engineering Block 2 building, room 107
+                Meetings are held in Engineering Block 1 building, Room 107
               </div>
             </div>
           </div>
@@ -472,20 +309,23 @@
       <div class="container text-center">
         <h5>Connect with Us</h5>
         <div class="d-flex justify-content-center gap-4 mt-3 flex-wrap">
-          <a href="https://instagram.com/yourclub" target="_blank" class="text-white text-decoration-none">
-            📷 Instagram
+          <a href="https://instagram.com/uwi.dmc" target="_blank" class="text-white text-decoration-none">
+            Instagram
           </a>
           <a href="https://yourform.com/signup" target="_blank" class="text-white text-decoration-none">
-            📝 Sign Up
+            Sign Up
           </a>
-          <a href="https://wa.me/yournumber" target="_blank" class="text-white text-decoration-none">
-            💬 WhatsApp
+          <a href="https://chat.whatsapp.com/IzD0D1VC0pGG8YFCtd6FIr" target="_blank" class="text-white text-decoration-none">
+            WhatsApp
           </a>
-          <a href="https://linktr.ee/yourlink" target="_blank" class="text-white text-decoration-none">
-            🔗 Linktree
+          <a href="https://linktr.ee/uwidmc" target="_blank" class="text-white text-decoration-none">
+            Linktree
           </a>
-          <a href="mailto:contact@yourclub.com" class="text-white text-decoration-none">
-            ✉️ Email
+          <a href="https://uch.web.app" target="_blank" class="text-white text-decoration-none">
+            UWI Central Hub
+          </a>
+          <a href="mailto:uwidigitalmediaclub@gmail.com" class="text-white text-decoration-none">
+            Email
           </a>
         </div>
         <small class="d-block mt-3">&copy; 2025 Digital Media Club. All rights reserved.</small>
