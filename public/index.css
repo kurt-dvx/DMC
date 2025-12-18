@@ -7,7 +7,7 @@
 
   /* Full screen background image */
   .fullscreen-bg {
-    background: url("https://wallpapers.com/images/hd/dark-theme-background-q62o6998n8bqxzrf.jpg") no-repeat center center fixed;
+    background: url("https://designized.com/public/assets/new-slider/image/GP-new.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
     position: relative;
@@ -24,11 +24,6 @@
     font-size: 2rem;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     padding: 0 20px;
-  }
-
-  .about-section {
-    padding: 4rem 0;
-    text-align: center;
   }
 
   .carousel-section {
