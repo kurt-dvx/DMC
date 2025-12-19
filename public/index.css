@@ -9,7 +9,9 @@
   .fullscreen-bg {
     background: url("https://raw.githubusercontent.com/kurt-dvx/DMC/refs/heads/master/DMC.jpg") no-repeat center center fixed;
     background-color: #0b0b1b;
+    height: 100vh;
     position: relative;
+    color: white;
   }
 
   /* Position text at the 2nd horizontal third, near bottom of that third */
