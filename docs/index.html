@@ -49,6 +49,13 @@
         padding: 4rem 0;
       }
 
+      .carousel-item img {
+        max-height: 90vh;  /* Won't exceed 70% of the screen height */
+        object-fit: contain; /* scales without cropping */
+        width: 100%; /* Fills the carousel width */
+        margin: 0 auto; /* Centers the image if it's narrower than the container */
+      }
+
       /* Button Style */
       .btn-magenta {
         background-color: #b388fe;
