@@ -32,7 +32,7 @@
 
   .carousel-item img {
     max-height: 90vh;
-    /* Won't exceed 70% of the screen height */
+    /* Won't exceed 90% of the screen height */
     object-fit: contain;
     /* scales without cropping */
     width: 100%;
